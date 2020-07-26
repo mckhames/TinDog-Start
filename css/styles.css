@@ -1,0 +1,75 @@
+body {
+  font-family:"Montserrat";
+}
+
+/* CLASS SELECTORS */
+.phone-pic {
+  transform:rotate(25deg);
+  width:60%;
+}
+
+
+/*ID Selectors*/
+
+
+
+#title {
+  background-color:#ff4c68;
+  color:white;
+}
+
+#header1 {
+  font-family: "Montserrat";
+  font-weight:900;
+  font-size:3.5rem;
+  line-height:1.5;
+}
+/*Bootstrap Mods*/
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding:0 0 4.5rem 0;
+}
+.navbar-brand {
+  font-family:"Ubuntu";
+  font-size:2.5rem;
+  font-weight:bold;
+}
+
+.nav-item {
+  padding-left:18px;
+  padding-right:18px;
+}
+
+.nav-link {
+  font-family:"Montserrat";
+  font-size:1.2rem;
+  font-weight:light;
+}
+/*FEATURES*/
+
+#features {
+  padding:5% 15%;
+}
+.feature-box {
+text-align:center;
+padding:5%;
+}
+
+.feature-title {
+  font-family:"Montserrat";
+  font-weight:bold;
+}
+
+.icon {
+  color:limegreen;
+  font-size:250%;
+}
+/*DOWNLOAD BUTTONS*/
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}

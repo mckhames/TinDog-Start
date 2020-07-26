@@ -4,27 +4,61 @@
 <head>
   <meta charset="utf-8">
   <title>TinDog</title>
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--Google Fonts-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+    <!--FontAwesome-->
+<script src="https://kit.fontawesome.com/18c84c5d1d.js" crossorigin="anonymous"></script>
+<!--Custom CSS-->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
   <section id="title">
+    <div class="container-fluid">
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">tindog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto ">
+            <li class="nav-item">
+              <a class="nav-link" href="">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Download</a>
+            </li>
+          </ul>
+        </div>
+        </ul>
 
-    <!-- Nav Bar -->
+      </nav>
+      <!-- Nav Bar -->
 
 
 
 
-    <!-- Title -->
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
 
-    <div>
-      <h1>Meet new and interesting dogs nearby.</h1>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
-    </div>
-    <div>
-      <img src="images/iphone6.png" alt="iphone-mockup">
+          <h1 id="header1">Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/iphone6.png" class="phone-pic"alt="iphone-mockup">
+        </div>
+      </div>
     </div>
 
   </section>
@@ -33,16 +67,26 @@
   <!-- Features -->
 
   <section id="features">
+  <div class="container-fluid">
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
+    <div class="row">
+      <div class="feature-box col-lg-4">
+    <i class="far fa-check-circle fa-4x icon"></i>
+    <h3 class="feature-title">Easy to use.</h3>
+    <p>So easy to use, even your dog could do it.</p></div>
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
+      <div class="feature-box col-lg-4">
+        <i class="fas fa-bullseye fa-4x icon"></i>
+    <h3 class="feature-title">Elite Clientele</h3>
+    <p>We have all the dogs, the greatest dogs.</p></div>
 
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
-
+<div class="feature-box col-lg-4">
+        <i class="fas fa-heart fa-4x icon"></i><br>
+    <h3 class="feature-title">Guaranteed to work.</h3>
+    <p>Find the love of your dog's life or your money back.</p></div>
+  </div>
+  </div>
+</div>
   </section>
 
 
@@ -126,7 +170,10 @@
 
   </footer>
 
-
+<!--Required JavaScript for BOOTSTRAP-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
