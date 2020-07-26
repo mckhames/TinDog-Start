@@ -56,17 +56,28 @@ body {
 }
 .feature-box {
 text-align:center;
-padding:5%;
+padding:5%
+
 }
 
 .feature-title {
   font-family:"Montserrat";
   font-weight:bold;
+  padding:5%;
 }
 
 .icon {
-  color:limegreen;
-  font-size:250%;
+  color:#ef8172;
+  margin-bottom:1rem;
+}
+
+.icon :hover {
+  color:#ff4c68;
+}
+
+.feature-description {
+  color:#8f8f8f;
+  font-size:.85rem;
 }
 /*DOWNLOAD BUTTONS*/
 
