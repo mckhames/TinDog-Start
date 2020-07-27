@@ -6,10 +6,13 @@ body {
 .phone-pic {
   transform:rotate(25deg);
   width:60%;
+  position:absolute;
+  right:30%;
+
 }
 
 
-/*ID Selectors*/
+/*Title Section*/
 
 
 
@@ -18,18 +21,26 @@ body {
   color:white;
 }
 
+
+
 #header1 {
   font-family: "Montserrat";
   font-weight:900;
   font-size:3.5rem;
   line-height:1.5;
 }
-/*Bootstrap Mods*/
+
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
+
+}
+/*Navbar Section*/
+.navvy {
+  padding-bottom:20%;
+}
 .navbar {
   padding:0 0 4.5rem 0;
 }
@@ -42,6 +53,7 @@ body {
 .nav-item {
   padding-left:18px;
   padding-right:18px;
+
 }
 
 .nav-link {
@@ -53,6 +65,9 @@ body {
 
 #features {
   padding:5% 15%;
+  background-color:#fff;
+  position:relative;
+
 }
 .feature-box {
 text-align:center;
@@ -145,9 +160,21 @@ h2 {
 padding-bottom:30px;
 }
 
+.disappear {
+  visibility:hidden; */for placeholder li items*/
+}
+
 /*Call to Action Section*/
 #cta {
   text-align:center;
   background-color:#ef8172;
   padding-top:5%;
+}
+
+/*Footer*/
+
+#footer {
+  text-align:center;
+  background-color:#ff4c68;
+  color:#fff;
 }
