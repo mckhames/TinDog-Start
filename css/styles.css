@@ -71,8 +71,9 @@ padding:5%
   margin-bottom:1rem;
 }
 
-.icon :hover {
+.icon:hover {
   color:#ff4c68;
+  transition-duration:0.7s;
 }
 
 .feature-description {
@@ -83,4 +84,70 @@ padding:5%
 
 .download-button {
   margin: 5% 3% 5% 0;
+}
+
+/*Testimonials Section*/
+
+#testimonials {
+;
+  text-align:center;
+  background-color:#ef8172;
+  color:#FFF
+
+}
+
+.carousel-item {
+  padding:7% 15%;
+}
+
+h2 {
+  font-family:"Montserrat";
+  font-weight:bold;
+  line-height:1.5;
+  font-size:3rem;
+}
+
+.testimonial-image {
+  border-radius:50%;
+  width:6rem;
+  margin:20px;
+}
+
+/*Press Section*/
+#press {
+  background-color:#ef8172;
+  text-align:center;
+  padding-bottom:3%;
+}
+ .press-icon {
+  width: 15%;
+  margin:20px 20px 50px 20px;
+}
+
+/*Pricing Section*/
+
+#pricing {
+  text-align:center;
+}
+.membership-titles {
+  font-size:2rem;
+}
+
+.pricing-card-title:{
+ font-weight:900;
+}
+
+.pricing-title{
+  margin: 15px 15px 15px 15px;
+}
+
+.pricing-subtitle {
+padding-bottom:30px;
+}
+
+/*Call to Action Section*/
+#cta {
+  text-align:center;
+  background-color:#ef8172;
+  padding-top:5%;
 }
