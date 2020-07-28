@@ -71,14 +71,14 @@ body {
 }
 .feature-box {
 text-align:center;
-padding:5%
+padding:4.5%;
 
 }
 
 .feature-title {
   font-family:"Montserrat";
   font-weight:bold;
-  padding:5%;
+  font-size:1.5rem;
 }
 
 .icon {
@@ -104,7 +104,7 @@ padding:5%
 /*Testimonials Section*/
 
 #testimonials {
-;
+
   text-align:center;
   background-color:#ef8172;
   color:#FFF
@@ -164,6 +164,7 @@ padding-bottom:30px;
   visibility:hidden; */for placeholder li items*/
 }
 
+
 /*Call to Action Section*/
 #cta {
   text-align:center;
@@ -175,6 +176,67 @@ padding-bottom:30px;
 
 #footer {
   text-align:center;
-  background-color:#ff4c68;
-  color:#fff;
+  background-color:#fff;
+  margin:0 auto;
+
+}
+
+.social-icons {
+  padding:2% 2% 1%
+
+}
+
+.test {
+  padding:0;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width:1028px)  {
+  .navbar {
+    display:none;
+  }
+  #title {
+    display:none;
+  }
+
+  .phone-pic {
+      display:none;
+    }
+    #features{
+      display:none;
+    }
+    #testimonials{
+      display:none;
+    }
+    #press{
+      display:none;
+    }
+    #pricing {
+      display:none;
+    }
+    #cta {
+      background-color:#ff4c68;
+      padding-bottom:
+    }
+    #footer {
+      background-color:#fff;
+      height:auto;
+
+    }
+    .social-icons {
+      padding:10% 1% 1%
+    }
+
+    .copyright {
+      color:grey;
+    }
+    .mobile-title {
+      padding-left:10%;
+      padding-right:10%;
+      font-family:"Montserrat";
+      font-size:2.5rem;
+      font-weight:900;
+      color:#fff;
+      padding-top:1%;
+    }
 }
